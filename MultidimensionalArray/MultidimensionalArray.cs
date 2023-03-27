@@ -16,7 +16,7 @@ public class Program
 			{
 				Console.Write("*");
 			}
-
+			
 			Console.WriteLine();
 		}
 	}
