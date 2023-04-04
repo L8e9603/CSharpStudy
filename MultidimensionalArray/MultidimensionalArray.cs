@@ -1,23 +1,26 @@
 ﻿using System;
 
-public class Program
+namespace MultidimensionalArray
 {
-	public static void Main(string[] args)
+	class Program
 	{
-		int size;
-
-		Console.Write("Enter Size : ");
-
-		size = int.Parse(Console.ReadLine());
-		
-		for (int i = 0; i < size; i++)
+		static void Main(string[] args)
 		{
-			for (int j = 0; j < size - i; j++)
+			int size;
+
+			Console.Write("Enter Size : ");
+
+			size = int.Parse(Console.ReadLine());
+
+			for (int i = 0; i < size; i++)
 			{
-				Console.Write("*");
+				for (int j = 0; j < size - i; j++)
+				{
+					Console.Write("*");
+				}
+
+				Console.WriteLine();
 			}
-			
-			Console.WriteLine();
 		}
 	}
 }

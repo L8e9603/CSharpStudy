@@ -2,7 +2,7 @@
 
 namespace PassByValue
 {
-    public class PassByValue
+    class Program
     {
         static void Main()
         {

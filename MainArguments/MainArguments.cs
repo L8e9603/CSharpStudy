@@ -2,7 +2,7 @@
 
 namespace MainArguments
 {
-    public class MainArguments
+    class Program
     {
         static void Main(string[] args)
         {

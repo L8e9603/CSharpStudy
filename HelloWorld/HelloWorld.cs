@@ -2,7 +2,7 @@
 
 namespace HelloWorld
 {
-    internal class HelloWorld
+    class Program
     {
         static void Main(string[] args) // 커맨드라인 인자, cmd에서 실행시 인자를 넣어줄 수 있음
         {
