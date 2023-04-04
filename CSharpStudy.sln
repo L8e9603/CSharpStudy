@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpStudy", "CSharpStudy\CSharpStudy.csproj", "{77FF4136-18F6-4008-9153-93434A7DC986}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{6A72A478-8667-470A-90C9-1C1FCBBF81DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArray", "MultidimensionalArray\MultidimensionalArray.csproj", "{E3A6CCE4-074B-49C1-B262-875101AE5BD5}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainArguments", "MainArgume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassByValue", "PassByValue\PassByValue.csproj", "{B55ACDC8-3A63-4612-90C2-22605789DE90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputValidationUsingAssert", "InputValidationUsingAssert\InputValidationUsingAssert.csproj", "{92DF3ACD-A894-4387-B1FD-146F0433458E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77FF4136-18F6-4008-9153-93434A7DC986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77FF4136-18F6-4008-9153-93434A7DC986}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77FF4136-18F6-4008-9153-93434A7DC986}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77FF4136-18F6-4008-9153-93434A7DC986}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6A72A478-8667-470A-90C9-1C1FCBBF81DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A72A478-8667-470A-90C9-1C1FCBBF81DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A72A478-8667-470A-90C9-1C1FCBBF81DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{B55ACDC8-3A63-4612-90C2-22605789DE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B55ACDC8-3A63-4612-90C2-22605789DE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B55ACDC8-3A63-4612-90C2-22605789DE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DF3ACD-A894-4387-B1FD-146F0433458E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DF3ACD-A894-4387-B1FD-146F0433458E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DF3ACD-A894-4387-B1FD-146F0433458E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DF3ACD-A894-4387-B1FD-146F0433458E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
