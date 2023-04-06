@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Main 함수의 string[] args의 의미
+using System;
 
 namespace MainArguments
 {

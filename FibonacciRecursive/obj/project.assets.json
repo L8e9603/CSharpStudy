@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\이선재 보관파일\\개인 공부\\프로그래밍 개인공부\\CSharp\\CSharpStudy\\InputValidationUsingAssert\\230403InputValidationUsingAssert.csproj",
-      "projectName": "230403InputValidationUsingAssert",
-      "projectPath": "D:\\이선재 보관파일\\개인 공부\\프로그래밍 개인공부\\CSharp\\CSharpStudy\\InputValidationUsingAssert\\230403InputValidationUsingAssert.csproj",
+      "projectUniqueName": "D:\\이선재 보관파일\\개인 공부\\프로그래밍 개인공부\\CSharp\\CSharpStudy\\FibonacciRecursive\\230406FibonacciRecursive.csproj",
+      "projectName": "230406FibonacciRecursive",
+      "projectPath": "D:\\이선재 보관파일\\개인 공부\\프로그래밍 개인공부\\CSharp\\CSharpStudy\\FibonacciRecursive\\230406FibonacciRecursive.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\이선재 보관파일\\개인 공부\\프로그래밍 개인공부\\CSharp\\CSharpStudy\\InputValidationUsingAssert\\obj\\",
+      "outputPath": "D:\\이선재 보관파일\\개인 공부\\프로그래밍 개인공부\\CSharp\\CSharpStudy\\FibonacciRecursive\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
