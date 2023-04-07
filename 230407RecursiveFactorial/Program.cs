@@ -14,7 +14,6 @@ namespace RecursiveFactorial
 
             Console.Write("RecursiveFactorial : ");
             Console.WriteLine(RecursiveFactorial(FACTORIAL));
-
         }
         #endregion
 
