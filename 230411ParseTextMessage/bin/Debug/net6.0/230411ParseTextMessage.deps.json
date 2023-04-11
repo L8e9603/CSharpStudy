@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "230411ParseTextMessage/1.0.0": {
+        "runtime": {
+          "230411ParseTextMessage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "230411ParseTextMessage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

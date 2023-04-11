@@ -11,17 +11,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230322MainArguments", "Main
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230331PassByValue", "PassByValue\230331PassByValue.csproj", "{B55ACDC8-3A63-4612-90C2-22605789DE90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230403InputValidationUsingAssert", "InputValidationUsingAssert\230403InputValidationUsingAssert.csproj", "{92DF3ACD-A894-4387-B1FD-146F0433458E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230403InputValidationUsingAssert", "InputValidationUsingAssert\230403InputValidationUsingAssert.csproj", "{92DF3ACD-A894-4387-B1FD-146F0433458E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230406FibonacciRecursive", "FibonacciRecursive\230406FibonacciRecursive.csproj", "{3ABDDBC2-BD5B-42C6-BAE8-9B810FD977A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230406FibonacciRecursive", "FibonacciRecursive\230406FibonacciRecursive.csproj", "{3ABDDBC2-BD5B-42C6-BAE8-9B810FD977A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230407RecursiveFactorial", "230407RecursiveFactorial\230407RecursiveFactorial.csproj", "{A93EB8DF-CD89-44F1-887E-0236B2430814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230407RecursiveFactorial", "230407RecursiveFactorial\230407RecursiveFactorial.csproj", "{A93EB8DF-CD89-44F1-887E-0236B2430814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230408RandomSeed", "230408RandomSeed\230408RandomSeed.csproj", "{44091943-CA2E-4300-BBA2-F4EA2EE31949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230408RandomSeed", "230408RandomSeed\230408RandomSeed.csproj", "{44091943-CA2E-4300-BBA2-F4EA2EE31949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230408RandomShuffling", "230408RandomShuffling\230408RandomShuffling.csproj", "{A5A5C720-CD32-4FB7-AD8D-1DAF47BF70A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230408RandomShuffling", "230408RandomShuffling\230408RandomShuffling.csproj", "{A5A5C720-CD32-4FB7-AD8D-1DAF47BF70A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230408ArrayInArray", "230408ArrayInArray\230408ArrayInArray.csproj", "{EC3ED206-DA39-4FD2-AA3D-C44BCC3CEB91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230408ArrayInArray", "230408ArrayInArray\230408ArrayInArray.csproj", "{EC3ED206-DA39-4FD2-AA3D-C44BCC3CEB91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230410ArrayOfArrays", "230410ArrayOfArrays\230410ArrayOfArrays.csproj", "{4554D762-2118-495B-AA3B-065FA6497B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230411ParseTextMessage", "230411ParseTextMessage\230411ParseTextMessage.csproj", "{464B9233-CDE7-4F31-A86F-3CE02F7E3372}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{EC3ED206-DA39-4FD2-AA3D-C44BCC3CEB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC3ED206-DA39-4FD2-AA3D-C44BCC3CEB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC3ED206-DA39-4FD2-AA3D-C44BCC3CEB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4554D762-2118-495B-AA3B-065FA6497B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4554D762-2118-495B-AA3B-065FA6497B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4554D762-2118-495B-AA3B-065FA6497B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4554D762-2118-495B-AA3B-065FA6497B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464B9233-CDE7-4F31-A86F-3CE02F7E3372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464B9233-CDE7-4F31-A86F-3CE02F7E3372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464B9233-CDE7-4F31-A86F-3CE02F7E3372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464B9233-CDE7-4F31-A86F-3CE02F7E3372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
