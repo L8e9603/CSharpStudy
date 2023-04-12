@@ -1,5 +1,5 @@
-﻿//using System;
-//using System.IO;
+﻿using System;
+using System.IO;
 
 namespace ParseTextMessage
 {
@@ -47,7 +47,7 @@ namespace ParseTextMessage
             }
 
             tokens = new string[commaCount + 1]; // commaCount + 1 == 토큰의 개수, 토큰 개수만큼 배열 공간 잡기
-            
+
             tempString = plainText; // for문에서 돌리기 위해 다시 초기화
 
             // 토큰 배열에 토큰 대입
