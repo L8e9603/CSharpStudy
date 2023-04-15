@@ -26,7 +26,7 @@ namespace ParseTextMessage
             #endregion
         }
         #endregion
-
+        
         #region CUSTOM METHOD
         /// <summary>
         /// 문자열을 토큰화 시키는 메서드
