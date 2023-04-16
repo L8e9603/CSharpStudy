@@ -22,11 +22,46 @@ namespace ParseTextMessage
             #endregion
 
             #region 문자 메세지 해석하기
+            // string textMessage = File.ReadAllText(@"D:\이선재 보관파일\개인 공부\프로그래밍 개인공부\CSharp\CSharpStudy\230411ParseTextMessage\Resources\TextMessage.txt"); // 절대경로
+
+            // string path = AppDomain.CurrentDomain.BaseDirectory; // 실행 프로그램 경로, 상위폴더로 세 번 올라가면 프로젝트 폴더임
+
+            string textMessage = File.ReadAllText(@"..\..\..\Resources\TextMessage.txt"); // 상대경로
+            string[] lines = textMessage.Split('\n'); // newline 캐릭터로 Split해서 lines 배열에 저장
+            
+            string[] dateTimeString = lines[1].Split(' '); // Monday 2019-04-15 13:21:54.456 를 공백 기준으로 Split해서 dateTimeString 배열에 저장
+            string nameOfDay = dateTimeString[0]; // Split해서 저장한 배열의 첫 번째 원소는 Monday, 문자열 변수 nameOfDay에 저장
+            
+            string[] date = dateTimeString[1].Split('-'); // 2019-04-15 문자열을 '-' 캐릭터로 Split
+            int year = int.Parse(date[0]);
+            int month = int.Parse(date[1]);
+            int day = int.Parse(date[2]);
+
+            string[] time = dateTimeString[2].Split(':'); // 13:21:54.456 문자열을 ':' 캐릭터로 Split
+            int hours = int.Parse(time[0]);
+            int mins = int.Parse(time[1]);
+            float seconds = float.Parse(time[2]);
+
+            string email = lines[2].Trim(); // 빈칸 제거
+
+            string courseCode = lines[3].Replace("Course", "").Trim(); // "Course		      COMP1500" 문자열에서 "Course" 문자열을 빈 문자열로 대체시키고 앞뒤 공백 제거시켜 "COMP1500" 문자열만 저장
+            string term = lines[4].Replace("Term", "").Trim();
+
+            Console.WriteLine($"Name of Day : {nameOfDay}");
+            Console.WriteLine($"Year : {year}");
+            Console.WriteLine($"Month : {month}");
+            Console.WriteLine($"Day : {day}");
+            Console.WriteLine($"Hours : {hours}");
+            Console.WriteLine($"Minutes : {mins}");
+            Console.WriteLine($"Seconds : {seconds}");
+            Console.WriteLine($"Email : {email}");
+            Console.WriteLine($"Course Code : {courseCode}");
+            Console.WriteLine($"Term : {term}");
 
             #endregion
         }
         #endregion
-        
+
         #region CUSTOM METHOD
         /// <summary>
         /// 문자열을 토큰화 시키는 메서드
