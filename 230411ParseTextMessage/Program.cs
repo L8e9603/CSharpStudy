@@ -57,6 +57,7 @@ namespace ParseTextMessage
             Console.WriteLine($"Email : {email}");
             Console.WriteLine($"Course Code : {courseCode}");
             Console.WriteLine($"Term : {term}");
+            
             #endregion
         }
         #endregion

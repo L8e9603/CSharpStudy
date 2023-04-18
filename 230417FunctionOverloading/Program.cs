@@ -6,7 +6,11 @@ namespace FunctionOverloading
     {
         static void Main()
         {
+            int score = 1;
+            Print(score);
 
+            string name = "Sun";
+            Print(name);
         }
         
         static void Print(int score)
