@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230408ArrayInArray", "23040
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230410ArrayOfArrays", "230410ArrayOfArrays\230410ArrayOfArrays.csproj", "{4554D762-2118-495B-AA3B-065FA6497B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230411ParseTextMessage", "230411ParseTextMessage\230411ParseTextMessage.csproj", "{464B9233-CDE7-4F31-A86F-3CE02F7E3372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230411ParseTextMessage", "230411ParseTextMessage\230411ParseTextMessage.csproj", "{464B9233-CDE7-4F31-A86F-3CE02F7E3372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230417FunctionOverloading", "230417FunctionOverloading\230417FunctionOverloading.csproj", "{9D175582-BE1A-4DAF-9A7C-8FF60FABB65D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "230417FunctionOverloading", "230417FunctionOverloading\230417FunctionOverloading.csproj", "{9D175582-BE1A-4DAF-9A7C-8FF60FABB65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230418DefaultParameter", "230418DefaultParameter\230418DefaultParameter.csproj", "{34ABAAD8-3E19-4815-B216-B8EF20137DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230419OutParameterModifier", "230419OutParameterModifier\230419OutParameterModifier.csproj", "{C9119D10-BC72-48FD-BF02-81251E146DAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{9D175582-BE1A-4DAF-9A7C-8FF60FABB65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D175582-BE1A-4DAF-9A7C-8FF60FABB65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D175582-BE1A-4DAF-9A7C-8FF60FABB65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34ABAAD8-3E19-4815-B216-B8EF20137DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34ABAAD8-3E19-4815-B216-B8EF20137DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34ABAAD8-3E19-4815-B216-B8EF20137DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34ABAAD8-3E19-4815-B216-B8EF20137DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9119D10-BC72-48FD-BF02-81251E146DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9119D10-BC72-48FD-BF02-81251E146DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9119D10-BC72-48FD-BF02-81251E146DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9119D10-BC72-48FD-BF02-81251E146DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
