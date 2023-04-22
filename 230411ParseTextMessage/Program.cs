@@ -15,6 +15,7 @@ namespace ParseTextMessage
             {
                 Console.WriteLine(token);
             }
+            float num2 = 1.0f;
 
             // Console.WriteLine(String.Join(Environment.NewLine, StringToTokens(nameText))); // 위 foreach문과 동일한 코드
 

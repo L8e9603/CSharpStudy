@@ -21,7 +21,7 @@ namespace OutParameterModifier
             {
                 Console.WriteLine($"Cannot be parsed to boolean\n");
             }
-
+            
             // 입력받은 문자열을 정수형으로 파싱하기
             Console.Write("Enter an integer : ");
             string intString = Console.ReadLine();
