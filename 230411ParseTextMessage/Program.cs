@@ -15,6 +15,11 @@ namespace ParseTextMessage
             {
                 Console.WriteLine(token);
             }
+
+            Console.WriteLine($"[ {string.Join(", ", StringToTokens(nameText))} ]"); // string.Join() 메서드를 이용하면 데이터를 담은 배열이나 객체 등을 예쁘게 출력이 가능하다
+            
+            Console.WriteLine("--------------------------------------------");
+
             float num2 = 1.0f;
 
             // Console.WriteLine(String.Join(Environment.NewLine, StringToTokens(nameText))); // 위 foreach문과 동일한 코드

@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230420FloatVsDoubleVsDecima
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230420ListExample", "230420ListExample\230420ListExample.csproj", "{E8BFAE1E-71AE-46F4-9E6E-6A50977C9934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230421DictionaryExample", "230421DictionaryExample\230421DictionaryExample.csproj", "{782DD895-DA74-463F-996E-5CB354FA277B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230421ForeachLoop", "230421ForeachLoop\230421ForeachLoop.csproj", "{DC1BC2B3-FFB8-40C2-9EE8-E7E51679811A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{E8BFAE1E-71AE-46F4-9E6E-6A50977C9934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8BFAE1E-71AE-46F4-9E6E-6A50977C9934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8BFAE1E-71AE-46F4-9E6E-6A50977C9934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782DD895-DA74-463F-996E-5CB354FA277B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782DD895-DA74-463F-996E-5CB354FA277B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782DD895-DA74-463F-996E-5CB354FA277B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782DD895-DA74-463F-996E-5CB354FA277B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1BC2B3-FFB8-40C2-9EE8-E7E51679811A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1BC2B3-FFB8-40C2-9EE8-E7E51679811A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1BC2B3-FFB8-40C2-9EE8-E7E51679811A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1BC2B3-FFB8-40C2-9EE8-E7E51679811A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
