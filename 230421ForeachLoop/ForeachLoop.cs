@@ -1,10 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using DictionaryExample;
 
 namespace ForeachLoop
 {
     class Program
     {
+        public Program()
+        {
+
+        }
+        public Program(int num)
+        {
+
+        }
         static void Main(string[] args)
         {
             #region foreach 연습
@@ -65,7 +74,11 @@ namespace ForeachLoop
             }
 
             Console.WriteLine($"[ {string.Join(", ", filteredCustomers)} ]");
+            #endregion
 
+            #region 클래스 연습
+            Program2 program2 = new Program2();
+            program2.Main("");
             #endregion
         }
     }
