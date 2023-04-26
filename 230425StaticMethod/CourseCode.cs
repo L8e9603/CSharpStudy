@@ -33,6 +33,7 @@ namespace StaticMethod
             ushort number = ushort.Parse(numberString);
 
             return new CourseCode(subject, number); // 정적 멤버 함수로 생성자 호출시켜 개체 생성 후 반환
+
         }
         #endregion
     }
