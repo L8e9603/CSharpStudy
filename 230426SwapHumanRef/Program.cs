@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SwapHumanRef
+﻿namespace SwapHumanRef
 {
     class Program
     {
@@ -10,7 +8,7 @@ namespace SwapHumanRef
             Human human2 = new Human();
             //SwapFace(human1, human2);
             SwapHuman(human1, human2);
-            //SwapHumanRef(ref human1, ref human2);
+            //SwapHuman(ref human1, ref human2);
         }
 
         public static void SwapFace(Human h1, Human h2)
@@ -27,7 +25,7 @@ namespace SwapHumanRef
             h2 = temp;
         }
 
-        public static void SwapHumanRef(ref Human h1, ref Human h2)
+        public static void SwapHuman(ref Human h1, ref Human h2)
         {
             Human temp = h1;
             h1 = h2;

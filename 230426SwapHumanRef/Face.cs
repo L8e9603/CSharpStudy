@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SwapHumanRef
+﻿namespace SwapHumanRef
 {
     public class Face
     {
