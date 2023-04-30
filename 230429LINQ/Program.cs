@@ -56,6 +56,9 @@ namespace LINQ
             decimal totalPrice = allOrderItems.Sum(oi => oi.Price * oi.Quantity); // Sum() 함수를 이용해 모든 제품의 총 가격 구하기
 
             Console.WriteLine($"Total Price of all order items: {totalPrice}");
+
+            Exception e = new ArgumentException();
+            Console.Error.WriteLine(e);
         }
 
         /// <summary>
@@ -84,9 +87,11 @@ namespace LINQ
             {
                 ID = 3,
                 Name = "Chocolate",
-                Price = 100,
+                Price = 1000,
                 Quantity = 1
             };
+
+            OrderItem tempOrderItem4 = new OrderItem(4, "Coke", 1500, 1); // 생성자
 
             List<OrderItem> tempOrderItems = new List<OrderItem>() { tempOrderItem, tempOrderItem2, tempOrderItem3 }; // 장바구니 목록에 임시 제품 넣기
 
