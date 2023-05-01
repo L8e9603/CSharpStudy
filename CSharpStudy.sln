@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230428Nullable", "230428Nul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230429LINQ", "230429LINQ\230429LINQ.csproj", "{72F1856C-DB59-4E22-B1D3-E695E0C49FEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230430ReadAndWriteFile", "230430ReadAndWriteFile\230430ReadAndWriteFile.csproj", "{8D56D675-D7C2-413F-A8CE-A71FA4582A06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{72F1856C-DB59-4E22-B1D3-E695E0C49FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72F1856C-DB59-4E22-B1D3-E695E0C49FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72F1856C-DB59-4E22-B1D3-E695E0C49FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D56D675-D7C2-413F-A8CE-A71FA4582A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D56D675-D7C2-413F-A8CE-A71FA4582A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D56D675-D7C2-413F-A8CE-A71FA4582A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D56D675-D7C2-413F-A8CE-A71FA4582A06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
