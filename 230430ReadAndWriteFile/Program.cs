@@ -22,14 +22,14 @@ namespace ReadAndWriteFile
 
             Console.WriteLine($"Input file is in: {INTPUT_FILE_FULL_PATH}"); // 이 경로에 저장된 파일을 곧 읽을 것임
 
+            // ReadAllText() 함수를 이용해 파일 읽기
             string allText = File.ReadAllText(INTPUT_FILE_FULL_PATH); // 파일을 하나의 문자열 변수에 읽어들임, '\n' 포함됨
-
-            IEnumerable<string> strings = File.ReadLines(INTPUT_FILE_FULL_PATH);
 
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine(allText);
             Console.WriteLine("-------------------------------------------------------------");
 
+            // ReadAllLines() 함수를 이용해 파일 읽기
             string[] allLines = File.ReadAllLines(INTPUT_FILE_FULL_PATH); // 파일의 각 줄을 문자열 배열의 요소 하나로 읽어들임
 
             Console.WriteLine("-------------------------------------------------------------");
@@ -38,11 +38,20 @@ namespace ReadAndWriteFile
             {
                 Console.WriteLine(line);
             }
+            Console.WriteLine("-------------------------------------------------------------");
+
+            // ReadLines() 함수를 이용해 파일 읽기
+            IEnumerable<string> strings = File.ReadLines(INTPUT_FILE_FULL_PATH);
+
+            Console.WriteLine("-------------------------------------------------------------");
+            
             foreach (string s in strings)
             {
                 Console.WriteLine(s);
             }
+            
             Console.WriteLine("-------------------------------------------------------------");
+
 
             Console.WriteLine($"Output file 1 is in: {OUTPUT_FILE1_FULL_PATH}"); // 입력 파일로부터 읽어들인 것을 다른 출력 파일에 저장
 
