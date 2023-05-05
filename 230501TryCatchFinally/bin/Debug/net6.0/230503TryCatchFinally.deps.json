@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "230503TryCatchFinally/1.0.0": {
+        "runtime": {
+          "230503TryCatchFinally.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "230503TryCatchFinally/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
