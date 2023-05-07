@@ -39,13 +39,14 @@ namespace ReadAndWriteFileUsingFileStream
             Console.WriteLine("\n");
 
             // 위에서 저장한 바이트를 출력 파일에 저장해보자
-            FileStream fsWrite = File.Open(OUTPUT_FILE_FULL_PATH, FileMode.Create, FileAccess.Write); 
+            FileStream fsWrite = File.Open(OUTPUT_FILE_FULL_PATH, FileMode.Create, FileAccess.Write);
             Console.WriteLine($"CanRead: {fsWrite.CanRead}"); // 읽기 불가능
             Console.WriteLine($"CanWrite: {fsWrite.CanWrite}");
             Console.WriteLine($"CanSeek: {fsWrite.CanSeek}");
 
             fsWrite.Write(bytes, 0, bytes.Length);
             fsWrite.Close();
+
         }
 
         #region CUSTOM FUNCION
