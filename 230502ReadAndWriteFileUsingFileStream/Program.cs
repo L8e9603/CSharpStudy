@@ -5,10 +5,14 @@ namespace ReadAndWriteFileUsingFileStream
 {
     public class Program
     {
+        #region VARIABLES
         private static readonly string CURRENT_DIRECTORY = Directory.GetCurrentDirectory(); // exe 파일이 존재하는 디렉토리 절대경로 리턴됨
         private static readonly string OUTPUT_FOLDER_PATH = Path.Combine(CURRENT_DIRECTORY, "output");
         private static readonly string INTPUT_FILE_FULL_PATH = Path.Combine(CURRENT_DIRECTORY, "input", "inputtext.txt");
         private static readonly string OUTPUT_FILE_FULL_PATH = Path.Combine(CURRENT_DIRECTORY, "output", "outputtext.txt");
+        #endregion
+
+        #region MAIN FUNCION
 
         static void Main(string[] args)
         {
@@ -48,6 +52,7 @@ namespace ReadAndWriteFileUsingFileStream
             fsWrite.Close();
 
         }
+        #endregion
 
         #region CUSTOM FUNCION
         /// <summary>
