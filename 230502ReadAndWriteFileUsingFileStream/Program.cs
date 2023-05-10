@@ -5,7 +5,7 @@ namespace ReadAndWriteFileUsingFileStream
 {
     public class Program
     {
-        #region VARIABLES
+        #region FIELDS
         private static readonly string CURRENT_DIRECTORY = Directory.GetCurrentDirectory(); // exe 파일이 존재하는 디렉토리 절대경로 리턴됨
         private static readonly string OUTPUT_FOLDER_PATH = Path.Combine(CURRENT_DIRECTORY, "output");
         private static readonly string INTPUT_FILE_FULL_PATH = Path.Combine(CURRENT_DIRECTORY, "input", "inputtext.txt");
