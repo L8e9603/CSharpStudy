@@ -53,7 +53,7 @@ namespace UsingStatement
                 {
                     writer.WriteLine(line);
                 }
-                Path.DirectorySeparatorChar + "dw"
+                
                 writer.BaseStream.Seek(0, SeekOrigin.Begin); // 스트림 위치 리셋되지 않음
                 writer.Write("Overwritten Text");
             }
@@ -79,5 +79,4 @@ namespace UsingStatement
         #endregion
     }
 
-}
 }
